@@ -8,10 +8,10 @@ _visit www.actionherojs.com for more information_
 
 `npm install`
 
-## To Run:
+## Build the container:
 
-`npm start`
+`docker build . -t actionhero-docker`
 
-## To Test:
+## Run it
 
-`npm test`
+`docker run -p 5005:8080 actionhero-docker `
